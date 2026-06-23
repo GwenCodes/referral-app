@@ -1,5 +1,5 @@
 [build]
-  command = "pnpm run build"
+  command = "pnpm install && chmod +x node_modules/.bin/vite && pnpm run build"
   publish = "dist"
 
 [build.environment]
@@ -10,4 +10,3 @@
   from = "/*"
   to = "/index.html"
   status = 200
-
