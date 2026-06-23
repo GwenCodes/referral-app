@@ -497,7 +497,6 @@ export default function App() {
           </div>
         )}
       </nav>
-
       {/* ── HERO ── */}
       <section
         className="py-16 lg:py-24"
@@ -571,8 +570,8 @@ export default function App() {
           </div>
         </div>
       </section>
-
       {/* ── TRUST ── */}
+      {/*
       <section
         className="py-14 border-y border-slate-100"
         style={{ background: "#F8FAFC" }}
@@ -607,7 +606,7 @@ export default function App() {
             ))}
           </div>
         </div>
-      </section>
+      </section>*/}
 
       {/* ── PROBLEM ── */}
       <section className="py-20 lg:py-28">
@@ -652,7 +651,6 @@ export default function App() {
           </div>
         </div>
       </section>
-
       {/* ── SOLUTION ── */}
       <section className="py-20 lg:py-28" style={{ background: "#F8FAFC" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -728,7 +726,6 @@ export default function App() {
           </div>
         </div>
       </section>
-
       {/* ── HOW IT WORKS ── */}
       <section id="how-it-works" className="py-20 lg:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -791,7 +788,6 @@ export default function App() {
           </div>
         </div>
       </section>
-
       {/* ── FEATURES ── */}
       <section
         id="features"
@@ -837,7 +833,6 @@ export default function App() {
           </div>
         </div>
       </section>
-
       {/* ── BENEFITS / STATS ── */}
       <section className="py-20 lg:py-28" style={{ background: "#F8FAFC" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -913,7 +908,6 @@ export default function App() {
           </div>
         </div>
       </section>
-
       {/* ── TESTIMONIALS ── */}
       <section className="py-20 lg:py-28">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -969,7 +963,6 @@ export default function App() {
           </div>
         </div>
       </section>
-
       {/* ── PRICING ── */}
       <section
         id="pricing"
@@ -1081,7 +1074,6 @@ export default function App() {
           </div>
         </div>
       </section>
-
       {/* ── FAQ ── */}
       <section id="faq" className="py-20 lg:py-28">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -1141,7 +1133,6 @@ export default function App() {
           </div>
         </div>
       </section>
-
       {/* ── FINAL CTA ── */}
       <section className="py-20 lg:py-28" style={{ background: "#F97316" }}>
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -1181,7 +1172,6 @@ export default function App() {
           </p>
         </div>
       </section>
-
       {/* ── FOOTER ── */}
       <footer style={{ background: "#0F172A" }}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
