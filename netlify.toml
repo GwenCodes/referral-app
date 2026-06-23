@@ -1,0 +1,10 @@
+[build]
+  command = "vite build"
+  publish = "dist"
+
+# Ensures SPA routing works (prevents 404 on refresh)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
