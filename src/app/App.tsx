@@ -519,9 +519,7 @@ export default function App() {
               style={{ color: "#0F172A", letterSpacing: "-0.02em" }}
             >
               Turn Every Completed Job Into More{" "}
-              <span style={{ color: "#F97316" }}>
-                Referrals, Reviews & Content
-              </span>
+              <span className="highlight">Referrals, Reviews & Content</span>
             </h1>
             <p
               className="text-lg leading-relaxed mb-8"
