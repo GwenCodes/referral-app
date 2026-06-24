@@ -3,7 +3,10 @@
 
   This is a concept for a referral app made in Figma. <br />
   There are many things I have to figure out; content needs to be simplified. <br />
-  And you may need to have Figma to open it.
+  The app is geared for contractors and home improvement professionals, but it can apply to many other fields. <br />
+  And you may need to have Figma to open it. <br />
+  I will eventually need help from others who are better with coding than me :) <br />
+  Send me a message in the multiverse for any comments or questions <br />
 
   ## Running the code
 
