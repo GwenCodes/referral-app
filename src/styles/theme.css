@@ -16,16 +16,16 @@
   --muted-foreground: #64748b;
   --accent: #10b981;
   --accent-foreground: #ffffff;
-  --destructive: #ef4444;
+  --destructive: #c6612b;
   --destructive-foreground: #ffffff;
   --border: #e2e8f0;
   --input: transparent;
   --input-background: #f8fafc;
-  --switch-background: #f97316;
+  --switch-background: #c6612b;
   --font-weight-medium: 500;
   --font-weight-normal: 400;
-  --ring: #f97316;
-  --chart-1: #f97316;
+  --ring: #c6612b;
+  --chart-1: #c6612b;
   --chart-2: #10b981;
   --chart-3: #0f172a;
   --chart-4: #3b82f6;
@@ -38,7 +38,7 @@
   --sidebar-accent: #f1f5f9;
   --sidebar-accent-foreground: #0f172a;
   --sidebar-border: #e2e8f0;
-  --sidebar-ring: #f97316;
+  --sidebar-ring: #c6612b;
 }
 
 .dark {
@@ -48,7 +48,7 @@
   --card-foreground: #f8fafc;
   --popover: #1e293b;
   --popover-foreground: #f8fafc;
-  --primary: #f97316;
+  --primary: #c6612b;
   --primary-foreground: #ffffff;
   --secondary: #1e293b;
   --secondary-foreground: #f8fafc;
@@ -56,26 +56,27 @@
   --muted-foreground: #94a3b8;
   --accent: #10b981;
   --accent-foreground: #ffffff;
-  --destructive: #ef4444;
+  --destructive: #c6612b;
   --destructive-foreground: #ffffff;
   --border: #1e293b;
   --input: #1e293b;
-  --ring: #f97316;
+  --switch-background: #c6612b;
+  --ring: #c6612b;
   --font-weight-medium: 500;
   --font-weight-normal: 400;
-  --chart-1: #f97316;
+  --chart-1: #c6612b;
   --chart-2: #10b981;
   --chart-3: #f8fafc;
   --chart-4: #3b82f6;
   --chart-5: #8b5cf6;
   --sidebar: #1e293b;
   --sidebar-foreground: #f8fafc;
-  --sidebar-primary: #f97316;
+  --sidebar-primary: #c6612b;
   --sidebar-primary-foreground: #ffffff;
   --sidebar-accent: #0f172a;
   --sidebar-accent-foreground: #f8fafc;
   --sidebar-border: #1e293b;
-  --sidebar-ring: #f97316;
+  --sidebar-ring: #c6612b;
 }
 
 @theme inline {
@@ -143,6 +144,7 @@
     font-size: var(--text-xl);
     font-weight: var(--font-weight-medium);
     line-height: 1.5;
+    color: var(--foreground);
   }
 
   h3 {
@@ -167,6 +169,7 @@
     font-size: var(--text-base);
     font-weight: var(--font-weight-medium);
     line-height: 1.5;
+    background-color: var(--primary);
   }
 
   input {
@@ -174,7 +177,11 @@
     font-weight: var(--font-weight-normal);
     line-height: 1.5;
   }
+
   .highlight {
-    color: #f97316;
+    color: var(--primary);
+  }
+  .bg-rusty-orange {
+    background-color: var(--primary);
   }
 }

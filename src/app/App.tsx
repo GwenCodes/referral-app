@@ -160,7 +160,7 @@ const STATS = [
     color: "#10B981",
   },
   {
-    value: "6 hrs",
+    value: "8 hrs",
     label: "Saved Weekly",
     sub: "on marketing tasks",
     color: "#3B82F6",
@@ -317,10 +317,7 @@ function FlowDiagram() {
       style={{ background: "#F8FAFC", border: "1px solid #E2E8F0" }}
     >
       {/* Mock app header */}
-      <div
-        className="flex items-center gap-2 px-4 py-3"
-        style={{ background: "#0F172A" }}
-      >
+      <div className="flex items-center gap-2 px-4 py-3 bg-dark-brown">
         <div className="w-3 h-3 rounded-full bg-red-400" />
         <div className="w-3 h-3 rounded-full bg-yellow-400" />
         <div className="w-3 h-3 rounded-full bg-green-400" />
@@ -412,7 +409,7 @@ export default function App() {
             >
               <Share2 size={16} color="white" />
             </div>
-            <span className="text-lg font-bold" style={{ color: "#0F172A" }}>
+            <span className="text-lg font-bold bg-dark-brown">
               ReferralFlow
             </span>
           </div>
@@ -438,16 +435,12 @@ export default function App() {
 
           {/* Desktop CTAs */}
           <div className="hidden md:flex items-center gap-3">
-            <button
-              className="text-sm font-semibold px-4 py-2 rounded-lg transition-colors hover:bg-slate-100"
-              style={{ color: "#0F172A" }}
-            >
+            <button className="text-sm font-semibold px-4 py-2 rounded-lg transition-colors hover:bg-slate-100">
               Sign In
             </button>
             <button
               onClick={() => scrollTo("#pricing")}
               className="text-sm font-semibold px-5 py-2.5 rounded-lg transition-opacity hover:opacity-90"
-              style={{ background: "#F97316", color: "#FFFFFF" }}
             >
               Start Free Trial
             </button>
@@ -457,7 +450,6 @@ export default function App() {
           <button
             className="md:hidden p-2"
             onClick={() => setMobileOpen(!mobileOpen)}
-            style={{ color: "#0F172A" }}
           >
             {mobileOpen ? <X size={22} /> : <Menu size={22} />}
           </button>
@@ -514,8 +506,8 @@ export default function App() {
               Referral automation for contractors
             </div>
             <h1
-              className="text-4xl lg:text-5xl font-bold leading-tight mb-5"
-              style={{ color: "#0F172A", letterSpacing: "-0.02em" }}
+              className="text-4xl lg:text-5xl font-bold leading-tight mb-5 bg-dark-brown"
+              style={{ letterSpacing: "-0.02em" }}
             >
               Turn Every Completed Job Into More{" "}
               <span className="highlight">Referrals, Reviews & Content</span>
@@ -532,14 +524,11 @@ export default function App() {
               <button
                 onClick={() => scrollTo("#pricing")}
                 className="flex items-center gap-2 px-6 py-3.5 rounded-lg text-sm font-semibold transition-opacity hover:opacity-90"
-                style={{ background: "#F97316", color: "#FFFFFF" }}
+                style={{ color: "#FFFFFF" }}
               >
                 Start Free Trial <ArrowRight size={16} />
               </button>
-              <button
-                className="flex items-center gap-2 px-6 py-3.5 rounded-lg text-sm font-semibold border transition-colors hover:bg-slate-50"
-                style={{ color: "#0F172A", borderColor: "#E2E8F0" }}
-              >
+              <button className="flex items-center gap-2 px-6 py-3.5 rounded-lg text-sm font-semibold border transition-colors hover:bg-slate-50">
                 Book a Demo
               </button>
             </div>
@@ -613,10 +602,10 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2
-              className="text-3xl lg:text-4xl font-bold mb-4"
-              style={{ color: "#0F172A", letterSpacing: "-0.02em" }}
+              className="text-3xl lg:text-4xl font-bold mb-4 bg-dark-brown"
+              style={{ letterSpacing: "-0.02em" }}
             >
-              Most Referrals Are <span style={{ color: "#EF4444" }}>Lost</span>
+              Most Referrals Are <span className="highlight">Lost</span>
             </h2>
             <p
               className="text-lg max-w-xl mx-auto"
@@ -634,10 +623,7 @@ export default function App() {
                 style={{ background: "#F8FAFC", border: "1px solid #E2E8F0" }}
               >
                 <div className="text-4xl mb-4">{p.emoji}</div>
-                <h3
-                  className="text-xl font-bold mb-3"
-                  style={{ color: "#0F172A" }}
-                >
+                <h3 className="text-xl font-bold mb-3 bg-dark-brown">
                   {p.title}
                 </h3>
                 <p
@@ -656,10 +642,10 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2
-              className="text-3xl lg:text-4xl font-bold mb-4"
-              style={{ color: "#0F172A", letterSpacing: "-0.02em" }}
+              className="text-3xl lg:text-4xl font-bold mb-4 bg-dark-brown"
+              style={{ letterSpacing: "-0.02em" }}
             >
-              One Completed Job.{" "}
+              One Job.{" "}
               <span style={{ color: "#F97316" }}>
                 Three Growth Opportunities.
               </span>
@@ -694,10 +680,7 @@ export default function App() {
                 >
                   {s.subtitle}
                 </div>
-                <h3
-                  className="text-2xl font-bold mb-3"
-                  style={{ color: "#0F172A" }}
-                >
+                <h3 className="text-2xl font-bold mb-3 bg-dark-brown">
                   {s.title}
                 </h3>
                 <p
@@ -731,8 +714,8 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2
-              className="text-3xl lg:text-4xl font-bold mb-4"
-              style={{ color: "#0F172A", letterSpacing: "-0.02em" }}
+              className="text-3xl lg:text-4xl font-bold mb-4 bg-dark-brown"
+              style={{ letterSpacing: "-0.02em" }}
             >
               How ReferralFlow Works
             </h2>
@@ -759,10 +742,7 @@ export default function App() {
                   >
                     {step.n}
                   </div>
-                  <h3
-                    className="text-base font-bold mb-2"
-                    style={{ color: "#0F172A" }}
-                  >
+                  <h3 className="text-base font-bold mb-2 bg-dark-brown">
                     {step.title}
                   </h3>
                   <p
@@ -789,15 +769,11 @@ export default function App() {
         </div>
       </section>
       {/* ── FEATURES ── */}
-      <section
-        id="features"
-        className="py-20 lg:py-28"
-        style={{ background: "#0F172A" }}
-      >
+      <section id="features" className="py-20 lg:py-28 bg-dark-brown">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2
-              className="text-3xl lg:text-4xl font-bold mb-4 text-white"
+              className="text-3xl lg:text-4xl font-bold mb-4"
               style={{ letterSpacing: "-0.02em" }}
             >
               Everything You Need to Grow by Referral
@@ -838,8 +814,8 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2
-              className="text-3xl lg:text-4xl font-bold mb-4"
-              style={{ color: "#0F172A", letterSpacing: "-0.02em" }}
+              className="text-3xl lg:text-4xl font-bold mb-4 bg-dark-brown"
+              style={{ letterSpacing: "-0.02em" }}
             >
               Grow Without Buying More Ads
             </h2>
@@ -867,10 +843,7 @@ export default function App() {
                 >
                   {s.value}
                 </p>
-                <p
-                  className="text-lg font-bold mb-1"
-                  style={{ color: "#0F172A" }}
-                >
+                <p className="text-lg font-bold mb-1 bg-dark-brown">
                   {s.label}
                 </p>
                 <p className="text-sm" style={{ color: "#94A3B8" }}>
@@ -913,8 +886,8 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2
-              className="text-3xl lg:text-4xl font-bold mb-4"
-              style={{ color: "#0F172A", letterSpacing: "-0.02em" }}
+              className="text-3xl lg:text-4xl font-bold mb-4 bg-dark-brown"
+              style={{ letterSpacing: "-0.02em" }}
             >
               Contractors Love ReferralFlow
             </h2>
@@ -947,12 +920,7 @@ export default function App() {
                     {t.avatar}
                   </div>
                   <div>
-                    <p
-                      className="text-sm font-bold"
-                      style={{ color: "#0F172A" }}
-                    >
-                      {t.name}
-                    </p>
+                    <p className="text-sm font-bold bg-dark-brown">{t.name}</p>
                     <p className="text-xs" style={{ color: "#94A3B8" }}>
                       {t.business} · {t.industry}
                     </p>
@@ -972,8 +940,8 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2
-              className="text-3xl lg:text-4xl font-bold mb-4"
-              style={{ color: "#0F172A", letterSpacing: "-0.02em" }}
+              className="text-3xl lg:text-4xl font-bold mb-4 bg-dark-brown"
+              style={{ letterSpacing: "-0.02em" }}
             >
               Simple Pricing
             </h2>
@@ -1079,8 +1047,8 @@ export default function App() {
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-14">
             <h2
-              className="text-3xl lg:text-4xl font-bold mb-4"
-              style={{ color: "#0F172A", letterSpacing: "-0.02em" }}
+              className="text-3xl lg:text-4xl font-bold mb-4 bg-dark-brown"
+              style={{ letterSpacing: "-0.02em" }}
             >
               Frequently Asked Questions
             </h2>
@@ -1098,12 +1066,8 @@ export default function App() {
                 <button
                   onClick={() => setOpenFaq(openFaq === i ? null : i)}
                   className="w-full flex items-center justify-between px-6 py-4 text-left transition-colors hover:bg-slate-50"
-                  style={{ background: openFaq === i ? "#F8FAFC" : "#FFFFFF" }}
                 >
-                  <span
-                    className="text-sm font-semibold pr-4"
-                    style={{ color: "#0F172A" }}
-                  >
+                  <span className="text-sm font-semibold pr-4 bg-dark-brown">
                     {faq.q}
                   </span>
                   {openFaq === i ? (
@@ -1120,12 +1084,7 @@ export default function App() {
                 </button>
                 {openFaq === i && (
                   <div className="px-6 pb-5" style={{ background: "#F8FAFC" }}>
-                    <p
-                      className="text-sm leading-relaxed"
-                      style={{ color: "#64748B" }}
-                    >
-                      {faq.a}
-                    </p>
+                    <p className="text-sm leading-relaxed">{faq.a}</p>
                   </div>
                 )}
               </div>
@@ -1134,7 +1093,7 @@ export default function App() {
         </div>
       </section>
       {/* ── FINAL CTA ── */}
-      <section className="py-20 lg:py-28" style={{ background: "#F97316" }}>
+      <section className="py-20 lg:py-28 bg-[#ACACAC]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2
             className="text-3xl lg:text-5xl font-extrabold mb-5 text-white"
@@ -1173,7 +1132,7 @@ export default function App() {
         </div>
       </section>
       {/* ── FOOTER ── */}
-      <footer style={{ background: "#0F172A" }}>
+      <footer className="bg-dark-brown">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
             <div className="md:col-span-2">
