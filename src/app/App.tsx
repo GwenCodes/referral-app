@@ -510,7 +510,10 @@ export default function App() {
               style={{ letterSpacing: "-0.02em" }}
             >
               Turn Every Job Into More{" "}
-              <span className="highlight">Referrals, Reviews & Content</span>
+              <span className="highlight">
+                <br />
+                Referrals, Reviews & Content
+              </span>
             </h1>
             <p
               className="text-lg leading-relaxed mb-8"
