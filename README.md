@@ -11,4 +11,5 @@
 
   Run `npm run dev` to start the development server.
 
-  <img width="959" height="941" alt="image" src="https://github.com/user-attachments/assets/8e0be6f0-4ff4-4300-93a5-a56940aef303" />
+  <img width="957" height="932" alt="image" src="https://github.com/user-attachments/assets/2266ca9a-bfe1-438c-8e24-d20bee2a2380" />
+
