@@ -1,7 +1,7 @@
 
   # Referral App
 
-  This is a concept for a referral app made in Figma. 
+  This is a concept for a referral app made in Figma. <br />
   There are many things I have to figure out; content needs to be simplified.
   And you may need to have Figma to open it.
 
