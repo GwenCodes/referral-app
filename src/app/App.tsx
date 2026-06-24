@@ -148,7 +148,7 @@ const FEATURES = [
 
 const STATS = [
   {
-    value: "3×",
+    value: "3x",
     label: "More Referrals",
     sub: "vs. asking manually",
     color: "#F97316",
@@ -509,7 +509,7 @@ export default function App() {
               className="text-4xl lg:text-5xl font-bold leading-tight mb-5 bg-dark-brown"
               style={{ letterSpacing: "-0.02em" }}
             >
-              Turn Every Completed Job Into More{" "}
+              Turn Every Job Into More{" "}
               <span className="highlight">Referrals, Reviews & Content</span>
             </h1>
             <p
